@@ -1,6 +1,10 @@
 #include "Arduino.h"
 #include "PhotodiodeTrigger.h"
 
+PhotodiodeTrigger::PhotodiodeTrigger()
+{
+}
+
 PhotodiodeTrigger::PhotodiodeTrigger(int photodiodePin, int triggerLimit)
 {
   _photodiodePin = photodiodePin;
