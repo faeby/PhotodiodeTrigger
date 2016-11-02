@@ -6,6 +6,7 @@
 class PhotodiodeTrigger
 {
   public:
+    PhotodiodeTrigger();
     PhotodiodeTrigger(int photodiodePin, int triggerLimit);
     bool triggered();  
   private:
